@@ -23,5 +23,6 @@ let listaConvidados = ["Marina","Pedro", "Jose", "Lucas", "Joana"]
 if(listaConvidados.length < 100){
     console.log("Agendamento foi concluido com sucesso!")
 }else{
+    
     console.log("Não foi possível concluir agendamento. Numero de convidados excede ao permitido.")
 }
